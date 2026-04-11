@@ -1,0 +1,29 @@
+  {
+    "domain_bootstrap": {
+      "api_primary_url": "https://api.feida.org/api",
+      "api_backup_urls": [
+        "https://api-b1.feida.org/api",
+        "https://api-b2.feida.org/api"
+      ],
+      "api_rescue_urls": [
+        "https://api-r1.fastnode001.com/api",
+        "https://api-r2.fastnode001.com/api",
+        "https://api-r3.fastnode001.com/api"
+      ],
+      "api_remote_rescue_url": "https://rescue.fastnode001.com/domain-bootstrap.json",
+      "api_remote_rescue_urls": [
+        "https://rescue.fastnode001.com/domain-bootstrap.json",
+        "https://feida-last-resort.pages.dev/domain-bootstrap.json",
+        "https://cdn.jsdelivr.net/gh/feida-last-resort/bootstrap@main/domain-bootstrap.json"
+      ],
+      "public_emergency_urls": [
+        "https://feida-last-resort.pages.dev/domain-bootstrap.json",
+        "https://cdn.jsdelivr.net/gh/feida-last-resort/bootstrap@main/domain-bootstrap.json"
+      ],
+      "subscribe_primary_url": "https://sub.feida.org",
+      "subscribe_backup_urls": [
+        "https://sub-b1.feida.org",
+        "https://sub-b2.feida.org"
+      ]
+    }
+  }
