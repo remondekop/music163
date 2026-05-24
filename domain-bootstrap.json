@@ -1,16 +1,18 @@
 {
   "domain_bootstrap": {
-    "generation": 2026052501,
+    "generation": 2026052502,
     "api_primary_url": "https://portal.fastnode001.com",
     "api_backup_urls": [],
     "api_rescue_urls": [],
     "api_remote_rescue_url": "https://rescue.fastnode001.com/domain-bootstrap.json",
     "api_remote_rescue_urls": [
       "https://rescue.fastnode001.com/domain-bootstrap.json",
+      "https://music163-em0.pages.dev/domain-bootstrap.json",
       "https://raw.githubusercontent.com/remondekop/music163/master/domain-bootstrap.json",
       "https://cdn.jsdelivr.net/gh/remondekop/music163@master/domain-bootstrap.json"
     ],
     "public_emergency_urls": [
+      "https://music163-em0.pages.dev/domain-bootstrap.json",
       "https://raw.githubusercontent.com/remondekop/music163/master/domain-bootstrap.json",
       "https://cdn.jsdelivr.net/gh/remondekop/music163@master/domain-bootstrap.json"
     ],
